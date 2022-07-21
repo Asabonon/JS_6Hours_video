@@ -1,3 +1,5 @@
+// mdn *Что я хочу спросить*
+
 /* // 1 Переменные
 // camelCase
 var firstName = 'Andrey' // устаревший метод
@@ -32,3 +34,75 @@ alert(firstName + ' ' + lastName)
 */
 
 // 3 Операторы
+/* const currentYear = 2022
+const birthYear = 2001
+const age = currentYear - birthYear
+console.log(age)
+ */
+
+// let a = 10
+// const b = 5
+
+// // console.log(a+b)
+// // console.log(a-b)
+// // console.log(a*b)
+// // console.log(a/b)
+// // console.log(a++)  // 10
+// // console.log(a)    // 11
+// // console.log(++a)  // 12
+// // console.log(--a)  // 11
+// let c = 32
+// c = c + a    // идентичны 
+// c += a       // идентичны 
+// console.log(c)       // 12
+
+// 4 Типы данных
+// const isProgrammer = true   //boolean
+// const name = 'Andrey'       // string
+// const age = 20              // number
+// let x                       // undefined
+//                             // null
+// //const y // нельзя создать, ибо в константу нужно занести что-то по умолчанию
+// console.log(typeof isProgrammer)
+// console.log(typeof name)
+// console.log(typeof age)
+// console.log(typeof x)
+// console.log(typeof null) //object (неточность)
+// console.log(null) //object (неточность)
+
+// 5 Приоритет операторов
+// // https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+// const fullAge = 20
+// const birthYear = 2002
+// const currentYear = 2022
+// // сначала вычитание, потом сравнение, потом присваивание
+// const isFullAge = currentYear - birthYear >= fullAge 
+// console.log(isFullAge)
+
+// 6 Условные операторы
+// const courseStatus = 'pending'
+// if (courseStatus === 'ready') {
+//     console.log('Курс готов')
+// } else if (courseStatus === 'pending'){
+//     console.log('Курс разрабатывается')
+// } else {
+//     console.log('Курс не получился')
+// }
+
+// const isReady = false
+// if (isReady) {
+//     console.log('Всё готово')
+// } else {
+//     console.log('Всё не готово')
+// }
+// // одинаково (Тернарное выражение)
+// isReady ? console.log('Всё готово') : console.log('Всё не готово')
+
+// // const num1 = 42 // number
+// const num2 = '42' //string
+// console.log(num1 == num2) // true (JS приводит одному типу данных, к строке)
+// console.log(num1 === num2) // false
+
+
+
+
