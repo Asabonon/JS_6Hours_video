@@ -103,6 +103,66 @@ console.log(age)
 // console.log(num1 == num2) // true (JS приводит одному типу данных, к строке)
 // console.log(num1 === num2) // false
 
+// 7 Булевая логика
+// (3 года универа с этим)
+
+// 8 Функции
+// function calcAge(year){
+//     return 2022 - year
+// }
+// // const myAge = calcAge(2001)
+// // console.log(calcAge(2001))
+// function logInfoAbout(name, year) {
+//     const age = calcAge(year)
+
+//     console.log('Имя: ' + name + ' Возраст: ' + age)
+// }
+// logInfoAbout('Andrey', 2001)
+
+// 9 Массивы
+
+// // const cars = new Array ('Lada','BMW','Renault')
+// const cars = ['Lada','BMW','Renault'] // упрощено 
+// console.log(cars) // (3) ['Lada', 'BMW', 'Renault']
+// console.log(cars[0]) // Lada
+// console.log(cars.length) // 3
+
+// cars[0] = 'Porshe'
+// cars[3] = 'Mazda' // добавим
+// cars[cars.length] = 'Ford' // добавим
+// console.log(cars) // (5) ['Porshe', 'BMW', 'Renault', 'Mazda', 'Ford']
+
+// 10 Циклы
+// const cars = ['Lada','BMW','Renault'] 
+
+// // for (let i = 0; i < cars.length; i++){
+// //     const car = cars[i]
+// //     console.log(car)
+// // }
+
+// for (let car of cars){
+//     console.log(car)
+// }
+
+// // 11 Объекты
+// const person = {
+//     firstName: 'Andrey',
+//     lastName: 'Asabin',
+//     year: 2001,
+//     languages: ['Ru', 'Eng', 'Chi'],
+//     hasWife: false,
+//     greet: function(){
+//         console.log('greet')
+//     }
+// }
+// console.log(person) // вывод всех полей
+// console.log(person.firstName) // вывод одного поля
+// console.log(person['lastName']) // вывод одного поля
+// person.hasWife = true // изменение
+// person.greet() // вызов метода у объекта
+
+
+
 
 
 
