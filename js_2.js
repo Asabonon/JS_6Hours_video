@@ -47,22 +47,22 @@
 // console.log(5n / 2n) // 2n отсекаем дробную часть
 
 // 3 Math
-console.log(Math.E)
-console.log(Math.PI)
-console.log(Math.sqrt(25)) // 5
-console.log(Math.pow(5, 3)) // 125
-console.log(25**(1/2)) // 5
-console.log(Math.abs(-3)) // 3
-console.log(Math.max(5, 3, 43)) // 43
-console.log(Math.min(5, 3, 43)) // 3
-console.log(Math.floor(4.9)) // 4 округление в меньшую сторону
-console.log(Math.ceil(4.9)) // 5 округление в большую сторону
-console.log(Math.round(4.9)) // 4 округление в ближайшую сторону
-console.log(Math.trunc(4.9)) // 4 отсекаем дробную часть
-console.log(Math.random())
-// 4 Example
-function getRandom(min, max) {
-    return Math.floor(Math.random() * (max-min+1) + min)
-}
+// console.log(Math.E)
+// console.log(Math.PI)
+// console.log(Math.sqrt(25)) // 5
+// console.log(Math.pow(5, 3)) // 125
+// console.log(25**(1/2)) // 5
+// console.log(Math.abs(-3)) // 3
+// console.log(Math.max(5, 3, 43)) // 43
+// console.log(Math.min(5, 3, 43)) // 3
+// console.log(Math.floor(4.9)) // 4 округление в меньшую сторону
+// console.log(Math.ceil(4.9)) // 5 округление в большую сторону
+// console.log(Math.round(4.9)) // 4 округление в ближайшую сторону
+// console.log(Math.trunc(4.9)) // 4 отсекаем дробную часть
+// console.log(Math.random())
+// // 4 Example
+// function getRandom(min, max) {
+//     return Math.floor(Math.random() * (max-min+1) + min)
+// }
 
-console.log(getRandom(10, 42))
+// console.log(getRandom(10, 42))
